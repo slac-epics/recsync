@@ -1,7 +1,9 @@
 O.*
-bin
-lib
-dbd
+bin/
+db/
+dbd/
+include/
+lib/
 envPaths
 dropin.cache
 
@@ -10,6 +12,12 @@ dropin.cache
 *.log
 *.pid
 *.db
+*.o
+*.d
+*.t
+*.swp
+RELEASE_SITE
+tags
 client/configure/*.local
 
 *~
